@@ -8,3 +8,9 @@ exponentiation_result = a ** b
 modulus_result = a % b
 print(a)
 print(b)
+print(addition_result)
+print(subtraction_result)
+print(multiplication_result)
+print(division_result)
+print(exponentiation_result)
+print(modulus_result)
