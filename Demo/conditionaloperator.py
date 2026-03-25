@@ -2,7 +2,7 @@ marks1 = float(input("Enter the marks of first subject: "))
 marks2 = float(input("Enter the marks of second subject: "))
 marks3 = float(input("Enter the marks of third subject: "))
 Average = (marks1 + marks2 + marks3) / 3
-print("Averge:",Average)
+print("Averge:%.2f" %(Average))
 if (Average >= 90 and marks1 >= 50 and marks2 >= 50 and marks3 >= 50):
     print("Grade: A")
 elif(Average >= 80 and marks1 >= 50 and marks2 >= 50 and marks3 >= 50):
