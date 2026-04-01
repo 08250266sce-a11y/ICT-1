@@ -22,4 +22,3 @@ else:
     days_late<=10
     due3 = (days_late * 20)
     print("Total Fine: You have Nu.",due3,"due to pay")   
-print()  
