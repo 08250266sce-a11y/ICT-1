@@ -6,7 +6,7 @@ print()
 if days_borrowed > 30:
     print("Warning: Libary privileges may be restricted")
     print()
-    #quit()
+    quit()
 else:
     print("Notice: No warning")
     print()
