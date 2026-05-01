@@ -11,6 +11,6 @@ def print_pattern(n):
     print("* " * n)
 
 # Example usage
-n = 4
+n = 4 #int(input("Enter the number for n value: "))
 print_pattern(n) 
 print()
