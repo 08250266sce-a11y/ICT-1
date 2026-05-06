@@ -1,0 +1,31 @@
+print()
+greetings = open("hello.txt", "r")
+print(greetings)
+greetings.close()
+f = open("hello.txt", "r")
+print("filename: ", f.name)
+print("file mode: ", f.mode)
+print("Is file closed?: ", f.closed)
+f.close()
+print("Is file closed?: ", f.closed)
+print()
+f = open("hello.txt", "r")
+contents = f.read() #reading a file content.
+print(contents)
+f.close()
+print()
+newfile = open("newfile.txt", "w")
+newfile.write("This is a new file created by python.")# over writing in new file.
+print(newfile)
+newfile.close()
+print()
+file0verwrite = open("newfile.txt", "w")
+file0verwrite.write("The contents of the newFILE is now changed.") #It will change the existing file.
+file0verwrite.close()
+appendFile = open("hello.txt", "a")
+appendFile.write("\n\nDon't forget to smile today!")#adding the statment in existing file. 
+appendFile.close()
+with open("hello.txt", "r") as f:
+    contents = f.read()
+    print(contents)
+print()
