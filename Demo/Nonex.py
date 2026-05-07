@@ -2,7 +2,7 @@ a = 1
 b = 2
 c = None
 print(c)
-print(type(c))
+print(type(c)) # Data type of c is NoneType
 c = a + b
-print(type(c))
+print(type(c)) # Data Type of c is now int
 print(c)
