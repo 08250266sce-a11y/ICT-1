@@ -18,8 +18,7 @@ print(my_list)
 my_repeated_list.clear()
 print(my_repeated_list)
 my_list.pop(5)
-#print(my_list)
 my_list.insert(5,"false")
 print(my_list)
-my_list[7] = "Xdorji"
+my_list[7] = "Xdorji" # updating index 7 into Xdorji
 print(my_list)
