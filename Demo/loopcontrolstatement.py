@@ -42,4 +42,3 @@ while attempts > 0:
         print("Incorrect credentials. Attempts left:", attempts)
 if attempts == 0:
     print("account locked")
-
