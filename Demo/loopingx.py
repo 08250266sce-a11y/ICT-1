@@ -28,7 +28,7 @@ for x in set1:
 print()
 BookDetails = dict({"Python Programming":"John Smith", "Python Fundamentals":"Alice Johnson", "Python Interview Questions":"Jane Doe"})
 for key in BookDetails:
-    print(key, BookDetails)
+    print(key, BookDetails[key])
 print()
 
 for i in range(1,4): #outer loop iterates from 1 to 3
