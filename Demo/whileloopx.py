@@ -7,5 +7,5 @@ while i <= no_of_students:
     i += 1
     students_names[i] = name
 print(students_names) 
-#while True:
- #   print("This is an infinite loop. Press Ctrl + c to stop it.")
+while True:
+    print("This is an infinite loop. Press Ctrl + c to stop it.")
